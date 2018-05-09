@@ -31,6 +31,15 @@ time, mark, audio, video {
   float: left;
 }
 
+.container3 {
+   object-fit: contain;
+  object-position: center;
+  width: 50%;
+  height: 30%;
+ 
+  
+}
+
 .flo {
   float: left;
   text-align: center;
@@ -264,4 +273,8 @@ ul {
 
 padding-top:20%;
 
+}
+
+td, tr {
+background-color: white;
 }
