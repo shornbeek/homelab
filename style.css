@@ -52,7 +52,14 @@ time, mark, audio, video {
 html{
 	font-family: 'Mukta Mahee', sans-serif;
   padding-left: 5%;
+
 }
+
+#grad {
+    background: linear-gradient(white, black);
+}
+
+
 
 body {
 margin-right: 10px;
