@@ -35,7 +35,7 @@ time, mark, audio, video {
   object-fit: contain;
   object-position: center;
   width: 220px;
-  height: 30%;
+  
   padding-right: 10%;
   padding-left: 10%;
   overflow-x:auto;
@@ -430,6 +430,9 @@ background-color: white;
 
 
 
-
+.center {
+  text-align: right;
+ 
+}
 
 
