@@ -34,14 +34,11 @@ time, mark, audio, video {
 .container3 {
   object-fit: contain;
   object-position: center;
-  width: 100%;
+  width: 220px;
   height: 30%;
   padding-right: 10%;
   padding-left: 10%;
-
- 
- 
-  
+  overflow-x:auto;
 }
 
 .flo {
