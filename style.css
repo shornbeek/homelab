@@ -296,6 +296,9 @@ background-color: white;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 .active {
@@ -434,10 +437,11 @@ background-color: white;
   background: gray;
 }
 
+
+
 .action-button {
-  padding: 10px;
-  padding-top: 10px;
-  margin-top: 10px;
+font-size: 16px;
+
 }
 
 
