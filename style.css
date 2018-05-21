@@ -11,12 +11,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .container1 {
@@ -50,7 +50,7 @@ time, mark, audio, video {
 }
 
 html{
-	font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Mukta Mahee', sans-serif;
   padding-left: 5%;
 
 }
@@ -69,7 +69,7 @@ margin-right: 10px;
     background-color: white;
     margin-top: 0px;
     margin-bottom: 40px;
-    width: 90%;
+    width: 90%;
   }
 .black-border {
     border-color: black;
@@ -429,9 +429,6 @@ background-color: white;
                 margin: 0 auto 15px;
             }
         }
-
-
-
 
 
 
