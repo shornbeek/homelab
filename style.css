@@ -244,11 +244,10 @@ margin-bottom: 100px;
 }
 
 .clip-circle {
-  
+  object-fit: contain;
   object-position: center;
   width: 100%;
   height: 575px;
-  overflow: hidden;
   padding-top: 35px;
   object-fit: contain;
 }
@@ -510,7 +509,14 @@ ul {
 li {
   display: block;
   margin: 10px 0 0 0;
+    font-family: "Helvetica Neue", Georgia, Verdana, san-serif;
+  font-size: 22;
+  font-weight: 100;
+  text-align: left;
+  
 }
+
+
 button {
   border: none;
   border-radius: 40px;
@@ -540,5 +546,12 @@ button {
   padding-top: 35px;
 }
 
+.gry {
+  color: #F5F5F5;
+}
 
+
+.str {
+  font-weight: bold;
+}
 
