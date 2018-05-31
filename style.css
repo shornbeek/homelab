@@ -317,10 +317,7 @@ background-color: white;
   background: black;
 }
 
-.active {
- color: #F5F5F5;
 
-}
 
 .wtf{
   object-fit: contain;
@@ -342,6 +339,16 @@ background-color: white;
 
 .dark {
   color: black;
+}
+
+.darkb {
+  color: red;
+  font-size: 15px;
+}
+
+.darkc {
+  color: green;
+  font-size: 15px;
 }
 
 
@@ -552,14 +559,14 @@ button {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #B22222;
+    background-color: white;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -569,14 +576,14 @@ button {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #FF0000;
+    background-color: black;
     color: #F0FFFF;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #FF0000;
-    color: white;
+   
+    color: black;
 }
 
 
@@ -586,85 +593,4 @@ button {
     box-sizing: border-box;
 }
 /* reset */
-
-
-.header-text {
-    padding: 30px 10px 10px 30px;
-}
-.banner {
-    background-color: #e74c3c; 
-    height: 200px;
-}
-
-.mirror-text {
-    font-size: 80px;
-    width: 100%;
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    letter-spacing: 2px;
-    font-family: 'Merriweather', serif;
-
-  }
-
-  .search-form {
-      margin: 20px auto;
-      width: 90%;
-      position: relative;
-
-  }
-
-  .search-form-items {
-    position: relative;
-    width: 90%;
-  }
-
-  .search-field {
-    font-size: 25px;
-    width: 100%;
-    border-radius: 4px;
-    color: white;
-    outline: none;
-    padding-bottom: 10px;
-
-  }
-
-  .search-field::-webkit-search-cancel-button {
-     -webkit-appearance: none;
-  }
-
-  .search-field{
-    background: none;
-    border: none;
-    font-size: 70px;
-    margin-top: 100px;
-    width: 100%;
-    border-bottom: 2px solid white;
-  }
-
-  .search-field::placeholder {
-      color: white;
-  }
-
-  .giphyResult {
-    margin: 20px auto;
-    width: 90%;
-    text-align: center;
-  }
-
-  .search__result {
-      height:250px;
-      width: 250px;
-      margin: 10px;
-      opacity: 100%;
-      transition: .3s ease-in-out;
-  }
-
-  .search__result:hover {
-    filter: opacity(50%);
-  }
-
-
-
 
