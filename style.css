@@ -35,6 +35,10 @@ time, mark, audio, video {
   padding-top: 5%;
 }
 
+.paddingaa {
+  font-size: 25px;
+}
+
 .paddingb {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -116,7 +120,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: black;
-  text-shadow: 0.5px 0.5px 1px #000000;
+  
 }
 
 .padding {
