@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+html, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -74,11 +74,6 @@ time, mark, audio, video {
   text-align: center;
 }
 
-html{
-  font-family: 'Mukta Mahee', sans-serif;
-  padding-left: 5%;
-
-}
    .white-box {
     background-color: white;
     margin-top: 0px;
@@ -485,10 +480,7 @@ html {
   background: rgb(246, 248, 248);
 }
 body {
-  padding: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;  
+  padding: 40px; 
 }
 .promos {
   width: 800px;
