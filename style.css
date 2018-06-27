@@ -114,14 +114,15 @@ h1 {
   text-align: left;
   padding-top: 3%;
   padding-bottom: 3%;
-  
-}
-
-h2 {
   font-family: "Helvetica Neue", san-serif;
   font-size: 22px;
   font-weight: 10;
   text-align: center;
+  
+}
+
+h2 {
+ 
   width: 600px;
   margin: 0 auto;
 }
@@ -456,10 +457,7 @@ background-color: white;
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
-html {
-  background: rgb(246, 248, 248);
-}
+
 body {
   padding: 40px; 
 }
@@ -585,7 +583,6 @@ button {
 }
 
 
-<<<<<<< HEAD
 .sidenav {
     height: 100%;
     width: 0;
@@ -629,16 +626,6 @@ button {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-
-=======
->>>>>>> f10deb37ce243de565a5bbf503d475a229b35878
-/* start of 
-
-* {
-    box-sizing: border-box;
-}
-/* reset */
 
 
 
