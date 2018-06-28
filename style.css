@@ -269,6 +269,16 @@ margin-bottom: 100px;
   margin-left: 5%;
 }
 
+.clip-circle2 {
+  object-fit: contain;
+  object-position: center;
+  width: 80%;
+  height: 80%;
+  padding-top: 35px;
+  margin-right: 5% ;
+  margin-left: 5%;
+}
+
 .footer a {
   text-align: center;
   color: #ffffff;
