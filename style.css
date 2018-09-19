@@ -121,6 +121,18 @@ h1 {
   
 }
 
+.padding1w {
+  text-align: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 52px;
+  font-weight: 10;
+  text-align: center;
+  color: red;
+  
+}
+
 h2 {
  
   width: 600px;
