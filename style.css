@@ -110,6 +110,26 @@ h1 {
   color: white;
 }
 
+.abcd {
+ padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  color: white;
+   font-size: 22px;
+  font-weight: 20px;
+  text-align: center;
+
+}
+
+.abcde {
+ padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+ 
+}
+
 .padding1 {
   text-align: left;
   padding-top: 3%;
