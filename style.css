@@ -14,10 +14,11 @@
 
 .paddinga {
   padding-top: 5%;
+  font-weight: bolder;
 }
 
 .paddingaa {
-  font-size: 25px;
+  font-size: 29px;
 }
 
 .paddingb {
@@ -136,7 +137,7 @@ h1 {
   padding-bottom: 3%;
   font-family: "Helvetica Neue", san-serif;
   font-size: 22px;
-  font-weight: 10;
+  font-weight: normal;
   text-align: center;
   
 }
