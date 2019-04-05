@@ -115,6 +115,40 @@
       color: red;
 
     }
+
+.flex1 {
+ 
+      text-align: center;
+      color: black;
+      padding: 20px;
+      border-radius: 55px;
+      padding-right: 50px;
+      padding-left: 50px;
+}
+
+.container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+
   </style>
 </head>
 
@@ -157,7 +191,22 @@
   </div>
 </nav>
 
+<div class="container row">
+    <div class="column flex-1">
+      <button class="flex-1 flex1"> A </button>
+    </div>
+</div>
 
+<div class="row">
+    <div class="column flex-1">
+    <button class="flex1" onclick="location.href='http://kithomelab.com/kit_1.html'" type="button">
+      Parts List </button>
+    </div>
+    <div class="column flex-1">
+    <button class="flex1" onclick="location.href='http://kithomelab.com/tutorial.html'" type="button">
+      Tutorials</button>
+    </div>
+</div>
 
 
 <h1 class="paddinga">KIT_1.0 the beginners Homelab</h1>
