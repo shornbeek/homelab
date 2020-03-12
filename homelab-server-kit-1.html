@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <!-- <link rel='stylesheet' href='style.css' /> -->
+
+  <title>Homelab network parts list. Build a powerful cloud server for small business with the Kit home lab components list.</title>
+  <link rel="shortcut icon" href="images/cloudkit.png" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .clip-circle1 {
+      object-fit: contain;
+      /* object-position: center; */
+      width: 100%;
+      /* height: 100%; */
+      /* padding-top: 35px; */
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+
+    .container1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px 0;
+      width: 100%;
+      margin: 0;
+      padding-top: 20px;
+      /* float: right; */
+      /* max-width: 900px; */
+    }
+
+    .container {
+      max-width: 1200px;
+    }
+
+    .container3 {
+      object-fit: contain;
+      object-position: center;
+      width: 220px;
+      padding-right: 10%;
+      padding-left: 10%;
+      overflow-x: auto;
+    }
+
+    .smalltxt {
+      font-size: 10px;
+    }
+
+    .abc {
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      font-weight: 120;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 10% 0 10%;
+    }
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      text-shadow: 0.5px 0.5px 1px #000000;
+      padding-top: 25px;
+    }
+
+    .padding1 {
+      text-align: left;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+
+    li {
+      list-style-type: none;
+
+    }
+
+    .darkb {
+      color: red;
+      font-size: 15px;
+    }
+
+    .darkc {
+      color: green;
+      font-size: 15px;
+    }
+
+    .padding1w {
+      text-align: left;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      font-family: "Helvetica Neue", san-serif;
+      font-size: 52px;
+      font-weight: bold;
+      text-align: center;
+      color: red;
+
+    }
+
+.flex1 {
+ 
+      text-align: center;
+      color: black;
+      padding: 20px;
+      border-radius: 55px;
+     
+}
+
+.containerfix {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.total {
+ color: red;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+   .darkb {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .darkc {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ImageSize {
+          max-width: 100px
+        }
+.steve {
+  padding-bottom: 120px;
+}
+
+.ab {
+  padding-bottom: 5%;
+}
+  </style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139884873-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139884873-1');
+</script>
+
+
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand" href="index.html">Kit HomeLab</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+        <li class="nav-item ">
+            <a class="nav-link" href="homelab-server-kit-start.html">Start Here
+                <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link " href="homelab-server-kit-1.html">Homelab Kit</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="homelab-server-kit-tutorial.html">Tutorials</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="homelab-server-kit-about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="homelab-server-kit-resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="homelab-server-kit-FAQ.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="homelab-server-kit-contact.html">Contact</a>
+        </li>
+
+
+      <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Kits
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Kit 1</a>
+                    <a class="dropdown-item" href="#">Kit 2</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li> -->
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+<div class="containerfix row">
+    <div class="column flex-1">
+      <!-- <button class="flex-1 flex1"> A </button> -->
+      
+      <!-- <form class="center flex-1 flex1" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+        <input type="hidden" name="business" value="stephen_hornbeek@yahoo.com">
+
+        <input type="hidden" name="cmd" value="_xclick">
+
+        <input type="hidden" name="item_name" value="Kit HomeLab">
+        <input type="hidden" name="amount" value="3244.40">
+        <input type="hidden" name="currency_code" value="USD">
+
+        <input class=" flex1" type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+        <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+      </form> -->
+
+
+    </div>
+</div>
+
+<h1 class="paddinga">Kit Homelab hardware home server components</h1>
+
+<center>
+    <div class="row">
+       <div class="col-xs-6   flex-1">
+        <!-- <button class="btn-light" onclick="location.href='http://kithomelab.com/kit_1.html'" type="button">
+          Parts List </button> -->
+
+
+        <div class="abcde ">
+                <center>
+                    <input type="button" class="btn btn-primary abcd" value=" Hardware" onclick="relocate_home11()">
+                </center>
+
+                <script>
+                    function relocate_home11() {
+                        location.href = "http://kithomelab.com/homelab-server-kit-1.html";
+                    } 
+                </script>
+            </div>
+        </div>
+      
+        <div class="col-xs-6  flex-1">
+        <!-- <button class="btn-light" onclick="location.href='http://kithomelab.com/tutorial.html'" type="button">
+          Tutorials</button> -->
+
+
+        <div class="abcde ">
+                <center>
+                    <input type="button" class="btn btn-primary abcd" value="Tutorials" onclick="relocate_homewe()">
+                </center>
+
+                <script>
+                    function relocate_homewe() {
+                        location.href = "http://kithomelab.com/homelab-server-kit-tutorial.html";
+                    } 
+                </script>
+            </div>
+        </div>
+    </div>
+    </center>
+
+
+<h2 class="padding1">HP DL360p G8 12-Core Server 2x E5-2667 2.9GHz 96GB-8 LFF 2GB RPS. Storage: 16TB 4 WD Red 4TB NAS Hard Disk Drive SATA 64MB Cache 3.5.  
+    </h2>
+
+<center>
+  <script>
+    var mydate = new Date()
+    var year = mydate.getYear()
+    if (year < 1000)
+      year += 1900
+    var day = mydate.getDay()
+    var month = mydate.getMonth() + 1
+    if (month < 10)
+      month = "0" + month
+    var daym = mydate.getDate()
+    if (daym < 10)
+      daym = "0" + daym
+    document.write("<small><font color='000000' face='Arial'><b>" + month + "/" + daym + "/" + year + "</b></font></small>")
+  </script>
+</center>
+
+<body class="html">
+  <!-- <img class="container1" src="https://i.ibb.co/6PSYyyN/graykit.png" alt="Robot Or Man."> -->
+
+  <img class="container1"   src="images/kit_g8.png" alt="Robot Or Man.">
+  <!-- <img class="container1"   src="images/1.0.png" alt="Robot Or Man.">  -->
+
+
+
+
+  <h2>Kit_1.0 HomeLab Requirements. </h2>
+
+
+
+  <p class="padding1">
+    <strong>Powerful & Low Cost!!! </strong>The below parts list is my best take at assembling a homelab for around 2k. The goal
+     is to make a more powerful micro data center for less then the cost of a Mac Pro (3-4k). </p>
+
+
+  <h2 class=" darkc">Pros: Data storage, Low power consumption, Powerful processing power </h2>
+
+  <!-- <h2 class="darkb">Cons: Loud when running at full power, Rack only scales to 2u, Heavy</h2> -->
+
+
+  <!-- <h2 class="padding1"> A quick note: You will need a monitor with a vga port and usb keyboard to set up the server when first getting started.
+    If you don't have them lying around the house you will have to purchase theses items or borrow them from a friend).</h2> -->
+
+
+  <!-- <h2 class="padding1">This Kit_1.0 is for people like me that want to get started in homelabing on a tight budget. </h2>
+
+
+  <h2 class="padding1">Thanks for your time,</h2>
+
+  <h2 class="padding1">If you have any thoughts on, better equipment, something I left out, or how to improve this configuration please email
+    me at:
+    <a href="mailto:Stephen_Hornbeek@yahoo.com?Subject=Help%20Stop%20School%20Shootings%20Today" target="_top">Stephen_Hornbeek@yahoo.com</a>
+  </h2>
+
+  <h2 class="padding1">Stephen</h2> -->
+
+
+
+
+
+  <body class="body">
+
+
+    <img class="container1" src="images/ortho21.png" alt="Robot Or Man.">
+
+    <!--
+ <p>Home cloud is now available through Alvin. Alvin is a full network in a box. 5k and 10k packages available.</p>
+
+
+<p>Custom built home server /networks built and shipped fast to your home or small business. </p>
+<p>Cloud computing could cost 100's of thousands of dollars.</p> 
+<p>Alvin will cost a fraction and save you from the cost of high cloud service builds. Host your business and save the cost of the cloud.</p>
+  <p>this is some shit! If you RE IN THE MARKET OF HOME   automation and cloud computing then alvin its a great place to start. Alvine is the stronges 4u computing rack curtom built to your standards. Alvin is the processing power of the cloud in your home.  </p>
+
+   <p>Home cloud is now available through Alvin. Alvin is a full network in a box. 5k and 10k packages available.</p>
+<p>Build a home network,  plex servers or ai projects. Alvin is built on lyinix ubunto and has 1000's of posibilities. were like an adault rasberry pie...  or any thing you want to program on lynix ubumto servers. </p>
+<p>Alvin is a collection of the top networking equipment to help build the best home alab available at a price that most small business like.</p>
+
+
+      <div class="row">
+  <div class='col-md-6 col-xs-11'><img class="clip-circle" src="https://image.ibb.co/hNdBUS/png.png" alt="SST_bot">   
+  <li><a href="https://invis.io/J8BVEWMG5#/259549770_Cover_Port_1" target="_blank"><strong>Invision Portfolio</strong></a> 
+
+-->
+
+
+
+
+
+    <!-- 
+
+
+<div class="row wtf">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+    <td><a href="https://www.ebay.com/itm/173335375307?rmvSB=true" target="_blank">HP DL360 G7 8-Core Server 2x E5540 QC 2.53GHz 96GB 4x Trays</a></td>
+    <li>96GB Registered ECC DDR3 Supports 9 DDR3 DIMMs Per Processor  </li>
+     <li>4 x Empty 2.5 Inch SFF Hot Plug Tray with Screws Supports up to 4 SFF Hard Drives </li>
+    <li>P410i/0, Integrated Lights Out (iLo), Single PSU</li>
+    <li> Includes  460W Power Supply - Power Cord</li>
+     <li>(refurbished)</li>
+  </ul>
+  </div>
+
+  <div class="col-xs-7">   <img class="clip-circle1" src="images/hpserver.png" alt="hp server"">  
+ </div>
+</div>
+
+
+
+ <div class="col-xs-7">   <img class="clip-circle1" src="https://images-na.ssl-images-amazon.com/images/I/81i9mquLS-L._SL1500_.jpg" alt="hp server""> 
+ </div>
+
+
+<div class="row">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+   <ul>
+    <li class="str">146GB SAS HP 10K Dual Port Drive w/ Tray 2.5 DG146BB976</li>
+   <li>146GB drives</li>
+    <li>Kit_1.0 comes with 584GB of memory total</li>
+    <li>New Retail Factory Sealed</li>
+    <li>2.5 drive comes with tray</li>
+    
+
+  </ul>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+    
+  <ul>
+    <li class="str">StarTech.com 12U Adjustable Depth Open Frame 4 Post Server Rack with Casters/Levelers and Cable Management Hooks 4POSTRACK12U Black</li>
+    <li>Store your servers network and telecommunications equipment in this adjustable 12U rack </li>
+    <li>12U Adjustable Depth Open Frame 4 Post Server Rack Cabinet</li>
+    <li>4 Post Rack,Adjustable mounting depth from 22 - 40 inches</li>
+    <li> Supports a static loading capacity of 1200lbs (544kg)</li>
+    <li>Durable & Robust Steel Construction</li>
+  </ul>
+
+  </div>
+   <div class="col-xs-7">   <img class="clip-circle1" src="https://images-na.ssl-images-amazon.com/images/I/61J1wrLlbaL._SL1000_.jpg" alt="Rack"">  
+ </div>
+</div>
+
+
+  <div class="col-xs-7">   <img class="clip-circle1" src="https://images-na.ssl-images-amazon.com/images/I/51veVMo5aXL._SL1280_.jpg" alt=" switch"">  
+ </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+    
+    <li class="str">TP-Link 24-Port Gigabit Ethernet Unmanaged Switch | Plug and Play | Metal | Rackmount | Fanless | Limited Lifetime (TL-SG1024)</li>
+    <li>24 10/100/1000M RJ45 ports</li>
+    <li>Supports MAC address self-learning and auto MDI/MDIX</li>
+    <li>Standard 19-inch rack-mountable steel case</li>
+    <li>All ports support Full/half duplex transfer mode for 10Mbps/100Mbps and Full duplex transfer mode for 1000Mbps</li>
+    <li>Supports IEEE 802.3X flow control for full-duplex mode and back pressure flow control for half-duplex mode</li>
+
+  </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+    <li class="str">NETGEAR R6700 Nighthawk AC1750 Dual Band Smart WiFi Router, Gigabit Ethernet (R6700)</li>
+    <li>AC1900 WiFi—600+1300 Mbps speeds</li>
+    <li>1GHz Dual Core Processor</li>
+    <li>Ideal for homes with 12 or more WiFi devices</li>
+    <li>Prioritized bandwidth for gaming, streaming videos, or music. 1 USB 2.0 and 1 USB 3.0 Port</li>
+    <li>Fast access to USB HDD with USB 3.0 ports</li>
+  </ul>
+
+  </div>
+  <div class="col-xs-7">   <img class="clip-circle1" src="https://images-na.ssl-images-amazon.com/images/I/91-tQAAX4jL._SL1500_.jpg" alt="Ven Pop"">  
+ </div>
+</div>
+
+
+
+
+  <div class="col-xs-7">   <img class="clip-circle1" src="images/modum.png" alt="cat6 ultra slim"">  
+ </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+    
+    
+<td><a href="https://www.amazon.com/ARRIS-SURFboard-SB6183-Docsis-Packaging/dp/B00MA5U1FW/ref=sr_1_1?s=musical-instruments&ie=UTF8&qid=1527981199&sr=8-1&keywords=arris+surfboard" target="_blank"><strong>ARRIS SURFboard SB6183 Modem 16x4 Docsis 3.0 Cable Modem- Retail Packaging- White</strong></a></td>
+    <li>DOCSIS 3.1 cable modem – the newest technology being offered by cable providers </li>
+    <li> 32 download x 8 upload channels</li>
+    <li>Perfect for 4K Ultra-HD Video Streaming and Virtual Reality Gaming</li>
+    <li> Two 1-Gigabit Ethernet ports</li>
+    <li>Supports IPv4 and IPv6 Internet browsing standards</li>
+    <li>Compatible with major U.S cable providers</li>
+  </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-5" ><ul style="list-style-type:square" class="pads col-lg-11">
+   <ul> 
+    <li class="str">AC3100 Dual Band Gigabit WiFi Gaming Router</li>
+    <li>Ultra-fast 802.11ac dual-band Wi-Fi router boosts speeds up to 3167 Mbps for extremely fast file-sharing.</li>
+    <li> 4x4 antenna design with AiRadar universal beamforming for unrivaled Wi-Fi range.</li>
+    <li>ASUS Router App lets you control your network anywhere, without needing to boot up a PC.</li>
+    <li>8 Gigabit LAN ports for extensive connectivity.</li>
+    <li>Link aggregation for up to 2Gbps wired network speeds</li>
+    <li>AiMesh Supported - Connect to other compatible ASUS routers to create a powerful and flexible whole-home Wi-Fi network</li>
+  </ul>
+
+  </div>
+  <div class="col-xs-7">   <img class="clip-circle" src="images/power.png" alt="power plugs"">  
+ </div>
+
+   </div>
+  <div class="col-xs-7">   <img class="clip-circle" src="images/cable.png" alt="Modem"">  
+ </div>
+
+  <div class="col-xs-5"><ul style="list-style-type:square" class="pads col-lg-11">
+   <ul>
+   <li class="str">5ft Ultra Slim Cat6 28 AWG UTP Snagless Ethernet Network Patch Cable, Black</li>
+    <li>The SlimCat6 28 AWG Unshielded (UTP) Snagless Patch Cable</li>
+    <li>perfect solution for high-density spaces such as telecommunication rooms and data centers</li>
+    <li>cable diameter of only 3.6mm</li>
+    <li>the slim Cat6 cable is much thinner and lighter than the standard Cat6 cable</li>
+    <li>The slim Cat 6 cable contains four twisted copper wire pairs</li>
+    <li>Cat6 patch cables are made of 100% bare copper wire, as opposed to copper clad aluminum (CCA) wire. </li>
+  </ul>
+</div>
+ -->
+
+
+    <!--  <img class="container black-border"   src="images/kit3.png" alt="Robot Or Man."> -->
+
+
+
+
+    <!--
+
+    <div class="container">
+  
+  <h2 class="header2 padding">
+    ASUS AC3100 Wi-Fi Dual-band Gigabit Wireless Router with 4x4 MU-MIMO, 8 x LAN Ports, AiProtection Network Security and WTFast Game Accelerator, AiMesh Whole Home Wi-Fi System Compatible (RT-AC88U) 
+  </h2>
+
+<ul>
+<li>Wireless speeds up to 3167 Mbps</li>
+<li>1.4 GHz dual-core processor</li>
+<li>Broadcom NitroQAM technology</li>
+<li>4 x 4 MU-MIMO antenna</li>
+<li>AiRadar Beamforming</li>
+<li>Support link aggregation for over 1 Gbps wired transfer</li>
+<li>AiMesh Supported - Upgrade your firmware to easily connect to other compatible ASUS routers to create a powerful and flexible whole-home Wi-Fi network</li>
+
+</ul>
+    
+
+    <p class="padding">Let's work together to save our schools! Please take a look at the content and let me know how you can help! Contact me directly at <a href="mailto:Stephen_Hornbeek@yahoo.com?Subject=Help%20Stop%20School%20Shootings%20Today" target="_top">Stephen_Hornbeek@yahoo.com</a> or share this page on social media! <a href="http://stop-school-shooting-today.51882.n8.nabble.com" target="_blank">Check Out The Forum.</a>
+    </p>
+
+  -->
+
+
+
+
+    <!--
+
+<a href="https://ibb.co/ecf1h7"><img src="https://preview.ibb.co/dUx3vS/chip.png" alt="chip" border="0"></a>
+
+ <a href="https://ibb.co/cYcQ9n"><img src="https://preview.ibb.co/ixhspn/alvin1.png" alt="alvin1" border="0"></a>
+
+
+  
+
+      
+
+<img class="container2" src="https://i.stack.imgur.com/WadM1.png" alt="The Network"> -->
+
+
+    <!--
+  <center><img class="container2" src="https://kargalc120-4uvngmie1boeumfvr7v.netdna-ssl.com/wp-content/uploads/2017/12/APPLE-AIRPORT-EXTREME-DUBAI-UAE-TECHNICAIN-SETUP-2.png" alt="The Network">. -->
+
+
+
+
+
+
+
+    <!-- </div> -->
+
+
+
+
+
+
+    <!-- <div class="col-lg-5 container ">   
+  <h2 class="padding"><a class="paddingaa" href="http://www.arris.com/surfboard/products/cable-modems/sb8200/" target="_blank">Arris</a>
+     is the heart of Kit's home network. Approved on Comcast Xfinity, Spectrum (Charter, Time Warner, Brighthouse Networks), Cox, Mediacom, Suddenlink and most other US Cable Internet Providers. NOT compatible with Verizon, AT&T or Centurylink.</h2>
+
+     <img class="container" src="images/modum.png" alt="Modem""> -->
+
+    <!-- <img class="container" src="https://image.ibb.co/b0UBSy/comlogo1.png" alt="Robot Or Man.">
+</div> -->
+
+
+
+
+
+
+
+ 
+
+
+  <!-- <h2 class="padding">A 48u rack systems start at $100,000  </h2> -->
+
+
+
+  <h2>Kit HomeLab parts list.</h2>
+  <h3 class="paddingb">Here is everything you need to build out this origional, powerful, and compact network.</h3>
+
+
+
+  <!-- <h1 class="paddinga">Here is an example of the Kit_1.0 Home_lab parts list.</h1> -->
+
+
+
+  <div class="table-responsive">
+    <table class="table table-condensed">
+      <thead>
+
+        <div class="table-responsive">
+
+
+
+          <table class="table table-condensed">
+            <thead>
+
+
+              <tr>
+                <th class="col-xs-3 ">Image</th>
+                <th class="col-xs-3">Item</th>
+                <th class="col-xs-4">Notes</th>
+                <th class="col-xs-1">Cost</th>
+                <th class="col-xs-1">Quantity</th>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="images/server.png"
+                    alt="First image"> </td>
+                <td>
+                  <a href="https://www.ebay.com/itm/HP-DL360p-G8-12-Core-Server-2x-E5-2667-2-9GHz-96GB-8-LFF-2GB-RPS/192869972939?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649" target="_blank">HP DL360p G8 12-Core Server 2x E5-2667 2.9GHz 96GB-8 LFF 2GB RPS </a>
+                </td>
+                <td>HP DL360p G8 12-Core Server 2x E5-2667 2.9GHz 96GB-8 LFF 2GB RPS (refurbished)
+                    This Server was purchased from Orange Computers 2012 on Ebay. (Make Offer at $560)
+
+                </td>
+                <td>$560.00</td>
+                <td>1 </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/710BplsG42L._SL1500_.jpg" alt="hp server"> </td>
+                <td>
+                  <a href="https://www.amazon.com/dp/B00EHBERSE/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B00EHBERSE&pd_rd_w=q2vTc&pf_rd_p=80559f3c-f83b-49c1-8a72-40f936e9df7a&pd_rd_wg=RVUbc&pf_rd_r=5NZGKCQPTV9DYQZTFNNJ&pd_rd_r=3dee8300-5bda-11e9-8062-731ec12980fe"
+                    target="_blank">WD Red 4TB NAS Hard Disk Drive - 5400 RPM Class SATA 6 Gb/s 64MB Cache 3.5 Inch - WD40EFRX</a>
+                </td>
+                <td> New Retail Factory Sealed NAS reliable everyday computing WD quality and reliability</td>
+                <td>$110.00</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://i.ebayimg.com/images/g/HzEAAOxyHE5Rv5FW/s-l1600.jpg" alt="3.5 drive tray"> </td>
+                <td>
+                  <a href="https://www.ebay.com/itm/New-HP-G8-Gen8-651314-001-LFF-3-5-HDD-Tray-Caddy-651320-001-US-SameDayShipping/291274961412?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649"
+                    target="_blank">New HP G8 Gen8 651314-001 LFF 3.5" HDD Tray Caddy 651320-001</a>
+                </td>
+                <td> Compatible with HP Proliant Server, Accepts 3.5 inch SATA / SAS HDD, Compatible PART NO. #651314-001 </td>
+                <td>$11.00</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/71jgRt39RQL._SX425_.jpg" alt="First image"> </td>
+                <td>
+                  <a href="https://www.amazon.com/Ubiquiti-switch-Managed-gigabit-US-48/dp/B01LZZ6DQ9/ref=sr_1_7?keywords=ubiquiti+switch+48&qid=1554325287&s=gateway&sr=8-7"
+                    target="_blank">Ubiquiti UniFi Switch 48 Managed Gigabit Switch with SFP+ (US-48)</a>
+                </td>
+                <td>Gigabit Ports: 48. Total Non-Blocking Throughput: 70 Gbps. SFP+ Ports: 2. SFP Ports: 2.</td>
+                <td>$364.00</td>
+                <td>1 </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/31JmevCdxcL.jpg" alt="Power Supply"> </td>
+                <td>
+                  <a href="https://www.amazon.com/CyberPower-RKBS15S2F10R-12-Outlet-Rackbar-Suppressor/dp/B004K1YG00/ref=pd_day0_hl_23_10?_encoding=UTF8&pd_rd_i=B004K1YG00&pd_rd_r=f2cc4dc2-5687-11e9-80e7-29197d10ef60&pd_rd_w=2H06T&pd_rd_wg=2cgNt&pf_rd_p=ad07871c-e646-4161-82c7-5ed0d4c85b07&pf_rd_r=CPS9915F02WFFEKYCEXW&psc=1&refRID=CPS9915F02WFFEKYCEXW"
+                    target="_blank">CyberPower RKBS15S2F10R 15A 12-Outlet 1U RM Rackbar Surge Supressor</a>
+                </td>
+                <td>12 Surge protected NEMA 5-15R outlets – 2 front, 12 rear – provides 3,600 joules of protection for servers
+                  or network devices.</td>
+                <td>$50.00</td>
+                <td>1 </td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://static.bhphoto.com/images/images500x500/1325005872000_835109.jpg" alt="4u frame"> </td>
+                <td>
+                  <a href="https://www.bhphotovideo.com/c/product/835109-REG/iStarUSA_WOS_490_4_Post_Open_Frame_Rack.html"
+                    target="_blank">iStarUSA 4-Post Open Frame Rack (4 RU)</a>
+                </td>
+                <td> Open Frame Structure Universal Fit Load Capacity up to 440 lb</td>
+                <td>$237.00</td>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/71-voJRWj7L._SL1500_.jpg" alt="4u frame"> </td>
+                <td>
+                  <a href="https://www.amazon.com/Depth-Universal-Fixed-Mount-Shelf/dp/B005G2JFEO/ref=sr_1_fkmrnull_1?keywords=1U+7in+Depth+Universal+Fixed+Rack+Mount+Shelf+%E2%80%93+33lbs+%2F+15kg+-+1U+Rack+Shelf+-+Fixed+Rack+Shelf&qid=1554755317&s=gateway&sr=8-1-fkmrnull"
+                    target="_blank">
+                    <strong>1U 7in Depth Universal Fixed Rack Mount Shelf – 33lbs / 15kg - 1U Rack Shelf - Fixed Rack Shelf</strong>
+                  </a>
+                </td>
+                <td>Add a 1U Compact Storage Shelf to any Standard 19in Server Rack or Cabinet </td>
+                <td>$24.00</td>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/31K2OBiAt6L.jpg" alt="4u frame"> </td>
+                <td>
+                  <a href="https://www.amazon.com/NavePoint-Adjustable-Mount-Server-Shelves/dp/B0060RUVBA/ref=sr_1_2?keywords=NavePoint+Adjustable+Rack+Mount+Server+Shelf+Shelves+Rail+Rails+1U&qid=1554755183&s=gateway&sr=8-2"
+                    target="_blank">NavePoint Adjustable Rack Mount Server Shelf Shelves Rails 1U</a>
+                </td>
+                <td> 60 pound weight capacity, up to 70% more than other cantilever rack shelves.</td>
+                <td>$24.00</td>
+                <td>1</td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://fibertronics-store.com/images/1U%20Blank%20Rack%20Mount%20Plate%20RM-BP1U.jpg"
+                    alt="1u Cover"> </td>
+                <td>
+                  <a href="https://www.parts-express.com/heavy-duty-0065-steel-blank-rack-panel-1u-with-flanges--262-846?utm_source=google&utm_medium=cpc&utm_campaign=pla&gclid=Cj0KCQjw4qvlBRDiARIsAHme6ovyw2OPQt9BphWom2v-yPQEXKbcB8YLu1-HlbGDeJb-9FX-6Py72b0aAguLEALw_wcB"
+                    target="_blank">Heavy Duty 0.065" Steel Blank Rack Panel 1U with Flanges</a>
+                </td>
+                <td>Blank rack panels are ideal for creating a completed look to your equipment rack.</td>
+                <td>$2.70</td>
+                <td>5</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/610EOEFxDVL._SL1300_.jpg" alt="bufflo switch"> </td>
+                <td>
+                  <a href="https://www.amazon.com/TOVOT-Black-Clips-R-type-Assortment/dp/B073WW9FJ5/ref=sr_1_fkmr3_1?keywords=robot+450+wire+clips&qid=1554345796&s=gateway&sr=8-1-fkmr3">
+                    <strong>TOVOT 450 PCS Black Wire Clips R-type Cable Clip Assortment - 9 Assorted Sizes</strong>
+                  </a>
+                </td>
+                <td>Each size contains 50 pcs</td>
+                <td>$22.00</td>
+                <td>1 </td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/61K25h4xk4L._SL1500_.jpg" alt="1 foot power cord"> </td>
+                <td>
+                  <a target="_blank" href="https://www.amazon.com/CableCreation-2-Pack-Universal-Power-IEC320C13/dp/B01IBIBUJM/ref=sr_1_5?crid=TRTNLAZJVO9T&keywords=1+ft+power+cord&qid=1554346467&s=gateway&sprefix=1+ft+power%2Caps%2C193&sr=8-5">CableCreation [2-Pack] 1 Feet 18 AWG Universal Power Cord for NEMA 5-15P to IEC320C13 Cable, 0.3M / Black</a>
+                  <img
+                    src="//ir-na.amazon-adsystem.com/e/ir?t=kithomelab-20&l=am2&o=1&a=B00R2AZLD2" width="1" height="1" border="0"
+                    alt="" style="border:none !important; margin:0px !important;" />
+                </td>
+                <td>AC1900 WiFi—600+1300 Mbps speeds, 1GHz Dual Core Processor, Ideal for homes with 12 or more WiFi devices</td>
+                <td>$8.00</td>
+                <td>1 </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/61bXPPyqfML._SL1200_.jpg" alt="M6 screws"> </td>
+                <td>
+                  <a href="https://www.amazon.com/Lancher-60-Pack-M6-16mm-Cabinets/dp/B01M2DBE3V/ref=sr_1_6?keywords=server+screws&qid=1554346982&s=gateway&sr=8-6"
+                    target="_blank">
+                    <strong>Lancher 60-Pack M6 x 16mm Screws and Cage Nuts for Server Shelf Cabinets Rack Mount Screw cage nut -
+                      Black</strong>
+                  </a>
+                </td>
+                <td>M6 Thread Style, 16mm long. Square cage nut designed for racks and cabinets with square holes, Mounting your
+                  standard rack mountable </td>
+                <td>$15.00</td>
+                <td>1</td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/71NHpyy0RCL._SL1500_.jpg" alt="cat6 flat "> </td>
+                <td>
+                  <a href="https://www.amazon.com/Ethernet-Higher-Bandwidth-Internet-Network/dp/B01F3CSWC2/ref=sr_1_4?keywords=cat6+flat+ethernet+cable+3ft&qid=1554347382&s=gateway&sr=8-4"
+                    target="_blank">
+                    <strong>Cat 6 Ethernet Cable 3ft (6 Pack) </strong>
+                  </a>
+                </td>
+                <td>Bandwidth of up to 250 MHz guarantees high-speed data transfer for cloud storage</td>
+                <td>$10.00</td>
+                <td>1 </td>
+              </tr>
+
+              <tr>
+                  <td>
+                    <img class="container3" src="https://www.ikea.com/ms/en_US/img/local_store_info/activities/assembly_250.png" alt="Shipping Assembly"> </td>
+                  <td>
+                    <a href=""
+                      target="_blank">
+                      <strong>Shipping and Assembly </strong>
+                    </a>
+                  </td>
+                  <td> Purchased the assembled kit shipped to your door. (Final server configuration will be agreed upon at 
+                    purchase. All server have 1 year warranty and a Passmark score over 10,000. 
+                  </td>
+                  <td>$1500.00</td>
+                  <td>1 </td>
+                </tr>
+
+              <tr class "gray">
+                  <td class="total">Total: $3244.40</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              </tbody>
+          </table>
+
+        </div>
+
+        <form class="center" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+          <!-- Identify your business so that you can collect the payments. -->
+          <input type="hidden" name="business" value="stephen_hornbeek@yahoo.com">
+
+          <!-- Specify a Buy Now button. -->
+          <input type="hidden" name="cmd" value="_xclick">
+
+          <!-- Specify details about the item that buyers will purchase. -->
+          <input type="hidden" name="item_name" value="Kit HomeLab">
+          <input type="hidden" name="amount" value="3244.40">
+          <input type="hidden" name="currency_code" value="USD">
+
+          <!-- Display the payment button. -->
+          <input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+          <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+        </form>
+
+        <h1 class="paddinga">You will need the below equipment to set up your server and complete your homelab. </h1>
+
+        <h2 class="padding1 paddingc">  Monitor, keyboard, hdmi cable, modem, and router are not included. </h2>
+        <!--You can also use a moitor with an hdmi cable but you need to get a VGA to HDMI cable so the monitor with the hdmi can hook up with the vga port on the server.  -->
+
+
+
+        <div class="table-responsive">
+
+
+
+          <table class="table table-condensed">
+            <thead>
+
+
+              <tr>
+                <th data-priority="">Image</th>
+                <th data-priority="">Item</th>
+                <th data-priority="">Notes</th>
+                <th data-priority="">Cost</th>
+                <th data-priority="">Quantity</th>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <img class="container3" src="https://images-na.ssl-images-amazon.com/images/I/81EVBAgtLVL._SL1500_.jpg" alt="4u frame"> 
+                </td>
+                <td>Logitech Wireless Combo MK270. The reliable wireless combo with the tiny Logitech nano-receiver. Used to work locally on Kit
+
+                </td>
+                <td>
+                <a href="https://www.amazon.com/Logitech-MK235-Wireless-Keyboard-Mouse/dp/B01AROOL12/ref=sr_1_5?s=electronics&ie=UTF8&qid=1527980053&sr=1-5&keywords=Logitech+MK270"
+                target="_blank">
+                <strong>Logitech MK270 Wireless Keyboard and Mouse Combo — Keyboard and Mouse Included</strong>
+              </a>
+            </td>
+                <td>$15.00</td>
+              <td>1</td>
+            </tr>
+              <tr>
+             
+                <td>
+                  <img class="container3" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTWNy1bmHr_yniv_gNbHUYio3iNYBTJ8YFwbCps4JdLpuGAw993VLzgluhISuDyLYew4dp-OIQ&usqp=CAY"> </td>
+                <td>A reliable and affordable 18.5" monitor with essential VGA Port. Used to work locally on Kit.</td>
+                <td><a href="https://www.amazon.com/Sceptre-E205W-1600-Screen-LED-Lit-Monitor/dp/B00S8W8QMG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1527981722&sr=1-1&keywords=Sceptre+E+series+E205W-1600
+                  " target="_blank "><strong>Sceptre E series E205W-1600 V1 20" Screen LED-Lit Monitor With HDMI, DVI and VGA Ports</strong>
+                </a>
+              </td> 
+                <td>$66.00</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+          
+                <td>
+                  <img class="container3" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSNRzlFSSLjTmyYrVpyDexQwjQ02bK22oZ6wb-nQjmCj2XLKr8lJwfAMNdPsZThgiZn5nkn4c3d&usqp=CAE"> </td>
+                <td>Used to connect to HP Proliant Server when working locally</td>
+                <td>
+                    <a href="https://www.amazon.com/AmazonBasics-DVI-Cable-Feet-Meters/dp/B00IHMFIBY/ref=sr_1_16_sspa?s=electronics&ie=UTF8&qid=1527980308&sr=1-16-spons&keywords=monoprice+6ft+vga+cable&psc=1
+  " target="_blank">
+                      <strong>Sceptre E series E205W-1600 V1 20" Screen LED-Lit Monitor With HDMI, DVI and VGA Ports</strong>
+                    </a>
+                  </td>
+                <td>$9</td>
+              <td>1</td>
+            </tr>
+
+            <td>
+                <img class="container3" src="https://multicomstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/b/sb6182.jpg"> </td>
+              <td>Kit_1.0 needs to be paired up with a service provider. They will provide you a modem that will complete your kit </td>
+              <td><a href="https://www.amazon.com/Sceptre-E205W-1600-Screen-LED-Lit-Monitor/dp/B00S8W8QMG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1527981722&sr=1-1&keywords=Sceptre+E+series+E205W-1600
+                " target="_blank "><strong>Modem</strong>
+              </a>
+            </td> 
+              <td>$TBD</td>
+                <td>1</td>
+            </tr>
+
+            <td>
+                <img class="container3" src="https://www.lifewire.com/thmb/wMyOJwqHxxFzyhSE94AqSHPjwlo=/1500x951/filters:no_upscale():max_bytes(150000):strip_icc()/asus-router-5b2c15befa6bcc0036b45c76.jpg"> </td>
+              <td>Kit_1.0 needs to be paired up with a service provider. They will provide you a router that will complete your kit</td>
+              <td><a href="https://www.amazon.com/Sceptre-E205W-1600-Screen-LED-Lit-Monitor/dp/B00S8W8QMG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1527981722&sr=1-1&keywords=Sceptre+E+series+E205W-1600
+                " target="_blank "><strong>Router</strong>
+              </a>
+            </td> 
+              <td>$TBD</td>
+                <td>1</td>
+            </tr>
+
+   
+         
+    </tbody>
+  </table>
+</div>
+
+<!-- 
+
+<h2 class="paddingb ">Recomended Operating System </h2>
+
+
+ <div class="table-responsive ">
+
+    
+
+    <table class="table table-condensed ">
+    <thead>
+
+
+  <tr>
+              <th data-priority=" ">Item</th>
+              <th data-priority=" ">Image</th>
+              <th data-priority=" ">Notes</th>
+              <th data-priority=" ">Cost</th>
+              <th data-priority=" ">Quantity</th>
+            </tr>
+         
+            <tr>
+              <td><a href="https://www.ubuntu.com/download/server " target="_blank "><strong>Ubuntu download and installed </strong></a></td>
+               <td><img class="container3 " src="https://vignette.wikia.nocookie.net/logopedia/images/2/2d/Ubuntu-old.png/revision/latest?cb=20150920032542
+                    " alt="4u frame ""> </td>
+                <td>Ubuntu is a free and open source operating system and Linux distribution based on Debian. Ubuntu is offered
+                  in three official editions: Ubuntu Desktop for personal computers, Ubuntu Server for servers. Watch our
+                  video on how to download and install your operating system. </td>
+                <td>FREE</td>
+                <td>1</td>
+              </tr>
+
+
+              <tr class "gray">
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td>Free</td>
+                <td></td>
+              </tr>
+              </tbody>
+          </table>
+        </div>
+ -->
+
+
+        <h2 class="padding1">Thanks for taking a look at this Kit Homelab parts list. You can purchase Kit_1.0  through our paypal button or
+          you can buy the parts yourself on amazon and ebay!</h2>
+
+
+
+  </div>
+
+  <!-- <h1>How can I determine the power demand of an HP server's power supply under load?</h1>
+
+ <h2 class="paddingb"> I give below is from one of my co-located ProLiant DL360 G7 systems with 96GB RAM, 2 x X5660 CPUs, 4 x SAS SSDs, dual power supplies and running a heavy virtualization workload.</h2>
+ <h2> Depending on CPU, RAM and disk configuration, expect to see something like:</h2>
+
+
+
+<img class="con"   src="https://i.stack.imgur.com/IyPH7.png" alt="Robot Or Man."> 
+
+<h2 class="paddingb"> I give below is from one of my co-located ProLiant DL360 G7 systems with 96GB RAM, 2 x X5660 CPUs, 4 x SAS SSDs, dual power supplies and running a heavy virtualization workload. </h2>
+
+<img class="con"   src="https://i.stack.imgur.com/r0jzf.png" alt="Robot Or Man."> -->
+
+
+
+  <!-- Please allow 2 weeks for product assembly and delivery. Kit HomeLab's are custom built and prices are only valid at the time of purchase. Server availability makes prices subject to change. So if you like the specs and the price click “Buy Now” to purchase your Kit HomeLab today. -->
+
+
+
+  <center><h3 class="paddinga steve">Start the totorials to build your homelab step by step. </h3></center>
+
+
+  <div class="col-xs-6  flex-1">
+    <!-- <button class="btn-light" onclick="location.href='http://kithomelab.com/tutorial.html'" type="button">
+      Tutorials</button> -->
+
+
+    <div class="ab ">
+            <center>
+                <input type="button" class="btn btn-primary abcd" value="Tutorials" onclick="relocate_homewe()">
+            </center>
+
+            <script>
+                function relocate_homewe() {
+                    location.href = "http://kithomelab.com/homelab-server-kit-tutorial.html";
+                } 
+            </script>
+        </div>
+    </div>
+
+  
+
+  </div>
+
+  <!-- <h1 class="paddinga">Set up HP Proliant DL380 G7 server from the beginning</h1>
+
+
+<h2 class="padding1">Set up HP Proliant DL380 G7 server from the beginning 
+Website: http://serverental.com/server</h2>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/-wHsQQsiC68" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<h1 class="paddinga">2. Learning about daus settings  </h1>
+<h2 class="padding1">Most comapnies and people are looking to sell something.</h2>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/zPQvwo8mxQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<h1 class="paddinga">3. Installing Ubunto </h1>
+<h2 class="padding1">Most comapnies and people are looking to sell something.</h2>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lIF8e_5F9B4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<h1 class="paddinga">4. Raid 5 set up</h1>
+<h2 class="padding1">Most comapnies and people are looking to sell something.</h2>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Q6kWuNb9hsA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+
+
+<h1 class="paddinga">5. Create a vurtuial machine </h1>
+<h2 class="padding1">Most comapnies and people are looking to sell something.</h2>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/lIF8e_5F9B4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<h1 class="paddinga">6. Installing Ubunto </h1>
+<h2 class="padding1">Most comapnies and people are looking to sell something.</h2> -->
+
+  <!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lIF8e_5F9B4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center> -->
+</body>
