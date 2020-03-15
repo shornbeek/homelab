@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <!-- <link rel='stylesheet' href='style.css' /> -->
+    <link rel='stylesheet' href='style.css' />
 
     <title>Linux Ubuntu fresh install on an Hp Proliant Server - Clean install ubuntu from usb to 1u rack server</title>
     <link rel="shortcut icon" href="images/cloudkit.png" />
@@ -209,6 +209,19 @@
     </div>
 </nav>
 
+<body class="html">
+        <!-- <img class="container1" src="https://i.ibb.co/6PSYyyN/graykit.png" alt="Robot Or Man."> -->
+    
+        <!-- <img class="container1"   src="https://image.ibb.co/idF8nK/kitabcds.png" alt="Robot Or Man."> -->
+        <!-- <img class="container1"   src="images/1.0.png" alt="Robot Or Man.">  -->
+    
+    
+    
+    
+        <h1> From USB boot to install linux ubuntu operating system on server</h1>
+        <h2>This server tutorial teaches how to install an operating system for a usb drive onto your home lab server.
+            </h2>
+
 <center>
     <div class="row">
         <div class="col-xs-6   flex-1">
@@ -216,7 +229,7 @@
               Parts List </button> -->
 
 
-            <div class="abcde ">
+            <div class="abcde padder-bottom">
                 <center>
                     <input type="button" class="btn btn-primary abcd" value=" Hardware" onclick="relocate_home11()">
                 </center>
@@ -234,7 +247,7 @@
               Tutorials</button> -->
 
 
-            <div class="abcde ">
+            <div class="abcde padder-bottom">
                 <center>
                     <input type="button" class="btn btn-primary abcd" value="Tutorials" onclick="relocate_homewe()">
                 </center>
@@ -256,16 +269,6 @@
   Dual Port Drive w/ Tray 2.5</h2> -->
 
 
-<body class="html">
-    <!-- <img class="container1" src="https://i.ibb.co/6PSYyyN/graykit.png" alt="Robot Or Man."> -->
-
-    <!-- <img class="container1"   src="https://image.ibb.co/idF8nK/kitabcds.png" alt="Robot Or Man."> -->
-    <!-- <img class="container1"   src="images/1.0.png" alt="Robot Or Man.">  -->
-
-
-
-
-    <h1> From USB boot to install linux ubuntu operating system on server</h1>
 
   
 
@@ -282,10 +285,12 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>
-                       Step 1. Download linux ubuntu from ubuntu.com
+                <h2 class="floater">
+                       Step 1. Download linux ubuntu from ubuntu.com and save the ubuntu iso file to your computer
                 </h2>
-                <p>In this video we are using chrome to go to ubuntu.com to download our linux operating system.  Download the most recent desktop version to your computer. Once the ubuntu files are on your computer your ready to move on to the next step.
+                <p class="floater">In this video we are using chrome to go to ubuntu.com to download our linux operating system.  Download the most recent desktop version to your computer. Once the ubuntu files are on your computer your ready to move on to the next step.
+                        <a href="https://ubuntu.com/download/desktop" target="_blank">Download Ubuntu Desktop</a> Download the latest LTS version of Ubuntu, for desktop PCs and laptops. LTS stands for long-term support until April 2023, of free security and maintenance updates, guaranteed.
+
                 </p>
             </div>
         </div>
@@ -302,11 +307,11 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>
-                        Step 2. Download etcher to flash linux ubuntu file to usb drive 
+                <h2 class="floater">
+                        Step 2. Download etcher to flash linux ubuntu iso file to usb drive for server install
                   </h2>
-                <p>
-                        In this video we are using chrome to go to https://www.balena.io/etcher/ to download the software. Once the etcher program is installed on your computer you then load the linux file through etcher. Be sure to have a flash drive plugged into your computer. The etcher program will erase anything on the USB drive so have a new drive ready or have all of your data backed up.  The drive I used was 8gb.</p>
+                <p class="floater">
+                        In this video we are using chrome to go to <a href="https://www.balena.io/etcher/" target="_blank">Etcher Website</a> to download the software. Once the etcher program is installed on your computer you then load the linux ubuntu iso file through etcher. Be sure to have a flash drive plugged into your computer. The etcher program will erase anything on the USB drive so have a new drive ready or have all of your data backed up.  The drive I used was 8gb.</p>
             </div>
         </div>
     </div>
@@ -322,9 +327,11 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>Step 3. Insert flashed USB into hp proliant server to install linux ubuntu operating system.
+                <h2 class="floater">Step 3. Insert flashed USB into hp proliant server to install linux ubuntu operating system.
                     </h2>
-                <p>In this video are removing our flashed drive from our computer (mac book pro) and placing the flashed etcher usb into the back of our hp proliant dl360p g8 server.</p>
+                <p class="floater">In this video are removing our flashed drive where we justed used etcher to install the linux ubuntu iso file. Now remove the drive from your computer  (mac book pro) and placing the flashed etcher usb into one the the USB drives HP proliant dl360p g8 server. 
+                    Now that the USB drive is installed we are able to move onto the next step and power on the Hp Proliant g8 homelab.
+                </p>
             </div>
         </div>
     </div>
@@ -338,10 +345,10 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2> Step 4. USB boot to install linux ubuntu operating system part 1
+                <h2 class="floater"> Step 4. USB boot to install linux ubuntu operating system on an HP Proliant rack server. Part 1
 
                     </h2>
-                <p>In this video are turning on the server and booting from the jump drive. The goal is to have the server find the usb drive on its own. Don't press anything and let the server find do the work for you.  Once the Ubuntu desktop screen is displayed your ready to move to the next video.
+                <p class="floater">In this video are turning on the server and booting from the jump drive. The goal is to have the server find the usb drive on its own. Don't press anything and let the server find do the work for you.  Once the Ubuntu desktop screen is displayed your ready to move to the next video.
 
                 </p>
             </div>
@@ -356,10 +363,10 @@
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/4YoWVtQjfpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <h2> Step 5. Install linux ubuntu software onto hp proliant dl360p g8 part 2
+                    <h2 class="floater"> Step 5. Install linux ubuntu software onto hp proliant dl360p g8 rack server. Part 2
     
                         </h2>
-                    <p>In this video are walking through the steps on how to install linux ubuntu onto the hp server. Be sure to reboot the server once or twice to make sure ubuntu was installed correctly. Be sure to remember you user name and password. You will need it as we continue to build this hp proliant dl360.
+                    <p class="floater">In this video are walking through the steps on how to install linux ubuntu onto the hp server. Be sure to reboot the server once or twice to make sure ubuntu was installed correctly. Be sure to remember you user name and password. You will need it as we continue to build this hp proliant dl360.
     
                     </p>
                 </div>
