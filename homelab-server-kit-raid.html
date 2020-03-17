@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <!-- <link rel='stylesheet' href='style.css' /> -->
+    <link rel='stylesheet' href='style.css' />
 
     <title>Build the raids and arrays with the hp array configuration utility. Set up your Home lab hardware</title>
     <link rel="shortcut icon" href="images/cloudkit.png" />
@@ -210,6 +210,22 @@
     </div>
 </nav>
 
+
+<div class="container">
+        <!-- <img class="container1" src="https://i.ibb.co/6PSYyyN/graykit.png" alt="Robot Or Man."> -->
+    
+        <!-- <img class="container1"   src="https://image.ibb.co/idF8nK/kitabcds.png" alt="Robot Or Man."> -->
+        <!-- <img class="container1"   src="images/1.0.png" alt="Robot Or Man.">  -->
+    
+    
+    
+    
+        <h1>How to partition a hard drive on a home lab server. Create a raid on my HP ProLiant server.</h1>
+    
+        <h2> Boot into HP Smart Array. Use f10 to enter the HP Provisioning utility to partition your hard drives and to set up the raids for your home lab. Learn how to access your raid controler.
+            </h2>
+    
+
 <center>
         <div class="row">
             <div class="col-xs-6   flex-1">
@@ -217,7 +233,7 @@
                   Parts List </button> -->
     
     
-                <div class="abcde ">
+                <div class="abcde padder-bottom">
                     <center>
                         <input type="button" class="btn btn-primary abcd" value=" Hardware" onclick="relocate_home11()">
                     </center>
@@ -235,7 +251,7 @@
                   Tutorials</button> -->
     
     
-                <div class="abcde ">
+                <div class="abcde padder-bottom">
                     <center>
                         <input type="button" class="btn btn-primary abcd" value="Tutorials" onclick="relocate_homewe()">
                     </center>
@@ -259,20 +275,6 @@
 
 <body class="html">
 
-        <div class="container">
-    <!-- <img class="container1" src="https://i.ibb.co/6PSYyyN/graykit.png" alt="Robot Or Man."> -->
-
-    <!-- <img class="container1"   src="https://image.ibb.co/idF8nK/kitabcds.png" alt="Robot Or Man."> -->
-    <!-- <img class="container1"   src="images/1.0.png" alt="Robot Or Man.">  -->
-
-
-
-
-    <h1>Partition the hard drives. Build the raids and arrays for your HP Proliant server</h1>
-
-    <h2>Use f10 HP Provisioning to partition your drives and to set up the raids for your homelab.  
-        </h2>
-
 
 
 
@@ -286,11 +288,11 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>
-                       Step 1.  f10 Hp Intelligent provisioning server power on
+                <h2 class="floater">
+                       Step 1. Enable intelligent provisioning in BIOS gen8. HP Proliant Intelligent provisioning using f10 after the server is power on
                 </h2>
                 <p>
-                        In this video we are booting the server and pressing f10 to enter the intelligent provisioning section of the server. Our server is brand new and has been reset to factory settings. In the next couple videos we will build the raids and arrays with the 3.5 WD red NAS hard drives.
+                        In this video we are booting the server and pressing f10 to enable the HP intelligent provisioning section of the server utility. Our homelab server is used but has been reset to factory settings. In the next couple videos we will build the raids and arrays with the 3.5 WD red NAS hard drives on our HP proliant DL360 g8 homelab server.
                 </p>
             </div>
         </div>
@@ -307,12 +309,12 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>
-                      Step 2.  f10 Hp Intelligent provisioning raid and array set up. Raid 5, Raid 6, Raid 0, raid 1,
+                <h2 class="floater">
+                      Step 2. Access RAID controller by pressing f10 on the HP Proliant server. provision the raids to be a Raid 5, Raid 6, Raid 0, raid 1,
                 </h2>
                 <p>
-                        In this video we are taking the 4 3.5 WD red hard drives and assigning them to do different tasks.  The first bay and drive will run the operating system on a raid 0. Bay 2 and 3 will store our data in a raid 1.  Bay 4 will be a backup drive incase bay 2 or 3 dies. 
-                         My goal was to use all 4 3.5 WD drives in a raid 5 configuration but I would need to place the operating system on a different ssd drive. If any one knows how to do this please contact me. This would give me 11tb of space to store my data.          
+                        In this video we are taking the 4 3.5 WD red hard drives and assigning them to do different tasks inside of our Hp Prolaint server.  The first bay and drive will run the operating system on a raid 0. Bay 2 and 3 will store our data in a raid 1.  Bay 4 will be a backup drive incase bay 2 or 3 dies. 
+                         My goal was to use all 4 3.5 WD drives in a raid 5 configuration but I would need to place the operating system on a different ssd drive. If any one knows how to do this please contact me. This would give me 11tb of space to store my data.  (to use all 4 drive bays you can put the oS onto a jump drive. This will keep all for harddrive bays available to use in the raid configurations.)        
                </p>
             </div>
         </div>
@@ -329,11 +331,11 @@
 
             </div>
             <div class="col-xs-12 col-md-6">
-                <h2>Step 3. f10 Hp Intelligent provisioning spare drive. install backup storage for your raid 1 hard drives
+                <h2 class="floater">Step 3. f10 Hp Intelligent provisioning spare drive. Install backup storage for your raid 1 hard drives
 
 
                     </h2>
-                <p>In this video we are assigning the last drive in bay 4 as a backup drive to our raid 1 that was built from drives 2 and 3. Learn how to assign a back up drive to your logical drives raids and arrays.</p>
+                <p>In this video we are assigning the last drive in bay 4 as a backup drive to our raid 1 that was built from drives 2 and 3. Learn how to assign a back up drive to your logical drives raids and arrays. Our current set up has the OS on one Drive the Long term storage mirrored in a raid 1 and one last drive to act as a backup incase one of the drives in the raid one fails.</p>
             </div>√
         </div>
     </div>
