@@ -75,19 +75,23 @@
     h2 {
       /* font-family: "Helvetica Neue", Georgia, Verdana, san-serif; */
       font-family: 'Roboto', sans-serif;
-      font-size: 22px;
-      font-weight: 900;
+      font-size: 18px;
+      font-weight: 700;
       text-align: center;
     }
 
     h1 {
      font-family: 'Roboto', sans-serif;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: bold;
       text-align: center;
       color: black;
       text-shadow: 0.5px 0.5px 1px #000000;
       padding-top: 60px;
+    }
+
+    p {
+        font-size: 13px;
     }
 
     .padding1 {
@@ -127,6 +131,26 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+
+    .iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
     </style>
 
 
@@ -209,17 +233,42 @@
 
         <div class="container">
 
+         
+              
 
-                <iframe width="100%" height="515" src="https://www.youtube.com/embed/eil9NQbmQZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="iframe-container">
+                <iframe width="100%" height="555" src="https://www.youtube.com/embed/eil9NQbmQZY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+              </div>
+
 
              
                     <!-- <img class="container1" src="images/indexhome.png" alt="kit homelab server idea"> -->
-                    <h1 class="">Learn how to build your own server at home. Kit Homelab server is everything needed to build the best homelab </h1>
-                    <center><p> If your tired of aws, home labs are a great alternative. Learn different server configurations for building a cloud home lab.</p></center>
+                    <h1 class="">Learn how to build your own server at home. Kit Homelab server is everything needed to build a rack mount enclosure and home network.</h1>
+                    <center><p> If your tired of AWS, homelabs are a great alternative. Learn different server configurations for building a cloud home lab.</p></center>
 
 
 
-                    <img class="container1"   src="images/kit_g8.png" alt="Robot Or Man.">
+                    <!-- <img class="container1"   src="images/kit_g8.png" alt="Robot Or Man."> -->
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100 container1" src="images/artkit2.png" alt="2nd slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 container1" src="images/artkit3.png" alt="3rd slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 container1" src="images/artkit4.png" alt="4th slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100 container1" src="images/artkit1.png" alt="One slide">
+                            </div>
+                        </div>
+                      </div>
+
 
                     <div class="abc">
                             <center>
@@ -239,6 +288,9 @@
           
 
             <h2>1. Get the FREE Server Parts List & Network Set-Up Guides ($5,400 value) </h2>
+
+    
+
 
                 <img class="container1" src="https://i.ibb.co/GpwsT65/logosa.png" alt="kithome">
                 <!-- <h1 class="paddinga">Kit Home Lab Components</h1> -->
@@ -268,23 +320,23 @@
 
        
         <h2>2. Watch the step by step guides on how to build a homelab server. </h2>
-              
+             <p>Most of the guides are hardware and I'm currently working on some more software videos. </p> 
 
                 <!-- <h1 class="paddinga">2. Learning about daus settings  </h1>
 <h2 class="padding1">Most comapnies and people are looking to sell something.</h2> -->
 
-<div class="row">
-        <div class="col-lg-2">
-         
-        </div>
-        <div class="col">
+
+     
+       
+            <div class="iframe-container">
+                <iframe width="100%" height="555" src="https://www.youtube.com/embed/cs8tceprQ7g" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+              </div>
+
                
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/cs8tceprQ7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-2">
-          
-        </div>
-      </div>
+       
+      
     </div>
 
 <!-- <center><iframe width="80%" height="360px" src="https://www.youtube.com/embed/zPQvwo8mxQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center> -->
@@ -302,7 +354,7 @@
     </div>
 
 
-<h2>3. Install your linux ubuntu operating system and other server programs on the best used server for home lab. </h2>
+<h2>3. Install your linux ubuntu operating system, VMware, and other server programs onto your kit homelab. </h2>
 
 <img width="100%" src="https://i.ibb.co/ZcQn6tV/plex-logo.png" alt="plex-logo" border="0">
 
